@@ -1,0 +1,29 @@
+html {
+    background-color: black;
+}
+
+.aboutHero {
+    text-align: center;
+    height:100vh;
+  }
+
+.aboutHeroHeader {
+    color: white;
+    font-size: 120px;
+    margin: 0px 10px 10px 5px;
+    padding-top: 400px;
+}
+
+.menuHeader  {
+    color: white;
+    font-size: 25px;
+    float: right;
+    margin-right: 300px;
+}
+
+.aboutContent {
+    text-align: center;
+    color: white;
+    height:100vh;
+    font-size: 25px;
+}

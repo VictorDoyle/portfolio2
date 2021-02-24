@@ -1,0 +1,37 @@
+.landingHero {
+    text-align: center;
+    background-color: black;
+    height:100vh;
+  }
+
+.landingHero h1 {
+    font-size: 150px;
+}
+
+.landingHero a {
+    text-decoration: none;
+}
+
+.headerFill{
+    padding: 150px 0px 0px 0px ;
+}
+.landingHeaderOne {
+    color: white;
+    margin: 0px 10px 10px 5px;
+   
+    width: 100%;
+}
+
+.landingHeaderTwo {
+    color: #ea0f1e;
+    margin: 10px 10px 10px 5px;
+}
+.landingHeaderThree {
+    color: #ea0f1e;
+    margin: 10px 10px 10px 5px;
+}
+
+.heroFooter {
+    padding: 150px 0px 0px 0px ;
+}
+  

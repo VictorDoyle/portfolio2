@@ -3,12 +3,12 @@ import { Switch, Route } from 'react-router-dom'
 
 /* Pages */
 import LandingPage from '../pages/LandingPage'
-import Homepage from '../pages/Homepage'
+import About from '../pages/About'
 
 export default (
     <Switch>
         <Route exact path='/' component={ LandingPage } />
-        <Route path='/home' component={ Homepage } />
+        <Route path='/about' component={ About } />
         {/* 404 ROUTE */}
         {/* <Route component={NotFound} /> */}
     </Switch>
