@@ -18,17 +18,35 @@
 .landingHeaderOne {
     color: white;
     margin: 0px 10px 10px 5px;
-   
+    transition: transform 0.5s ease;
+    transform: translateX(30px);
     width: 100%;
+}
+
+.landingHeaderOne:hover {
+    transform: translateX(0px);
 }
 
 .landingHeaderTwo {
     color: #ea0f1e;
     margin: 10px 10px 10px 5px;
+    transition: transform 0.5s ease;
+    transform: translateX(30px);
 }
+
+.landingHeaderTwo:hover{
+    transform: translateX(0px);
+}
+
 .landingHeaderThree {
     color: #ea0f1e;
     margin: 10px 10px 10px 5px;
+    transition: transform 0.5s ease;
+    transform: translateX(30px);
+}
+
+.landingHeaderThree:hover {
+    transform: translateX(0px);
 }
 
 .heroFooter {
