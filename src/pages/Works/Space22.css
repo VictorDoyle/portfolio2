@@ -1,0 +1,71 @@
+/* FIXME: add react helmet to override body bckgd color */
+
+body {
+    background-color: white  !important;
+}
+
+
+.projectTitle {
+    color: black;
+    font-size: 120px;
+}
+
+.projectDescription {
+    color: grey;
+    font-size: 25px;
+}
+
+.menuHeader  {
+    color: black;
+    font-size: 25px;
+    float: right;
+    margin-right: 300px;
+    padding-top: 20px;
+    transition: transform 0.5s ease;
+    transform: translateX(10px);
+    position: sticky;
+    bottom: 90px;
+    z-index: 20;
+}
+
+.menuHeader:hover {
+    transform: translateX(0px);
+}
+
+.worksTitle {
+    padding-top: 15%;
+    margin-left: 15%;
+}
+
+.heroImage {
+    width: 70vw;
+    height: 90vh;
+    overflow: hidden;
+    margin: 35vh 60vh 15vh;
+}
+
+/* .worksTitle a {
+    display:block;
+    width:40%;
+    height: 100%;
+    transition: transform 0.5s ease;
+    transform: translateX(0px);
+}
+
+
+.worksTitle a:hover {
+    transform: translateX(30px);
+} */
+
+.contentTitle {
+    font-size: 45px !important;
+}
+
+.contentDescription {
+    font-size: 25px;
+}
+
+.contentMiniDescription {
+    font-size: 16px;
+    line-height: 2;
+}
