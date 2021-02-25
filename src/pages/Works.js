@@ -19,7 +19,7 @@ function Works () {
 
   
         <div className="worksContent">
-        <Link to={'/portfolio2'} onMouseEnter={() => setInnerText("victor.doyle")}
+        <Link to={'/'} onMouseEnter={() => setInnerText("victor.doyle")}
           onMouseOut={() => setInnerText("victor.")}>
         <h4 className="menuHeader"> {innerText} </h4> 
         </Link>
