@@ -25,14 +25,14 @@ function Works () {
         </Link>
 
         <div className="worksProjects">
-        <Link to={'/works/space22'}> 
+        <Link to={'/space22'}> 
         <h1 className="worksProjectTitles">Space-22</h1>
         <p className="worksProjectDescription"> Audio Visual Interactive Website</p>
         </Link>
         </div>
 
         <div className="worksProjects">
-        <Link to={'/works/coeus'}> 
+        <Link to={'/coeus'}> 
         <h1 className="worksProjectTitles">Coeus App</h1>
         <p className="worksProjectDescription"> Social Media Application</p>
         </Link>
@@ -41,28 +41,28 @@ function Works () {
        
 
         <div className="worksProjects">
-        <Link to={'/works/luxuryrentals'}> 
+        <Link to={'/luxuryrentals'}> 
         <h1 className="worksProjectTitles">Luxury Rentals</h1>
         <p className="worksProjectDescription"> Real Estate Website </p>
         </Link>
         </div>
 
         <div className="worksProjects">
-        <Link to={'/works/spacegotchi'}> 
+        <Link to={'/spacegotchi'}> 
         <h1 className="worksProjectTitles">SpaceGotchi</h1>
         <p className="worksProjectDescription"> Reimagined Tamagotchi with Space Theme</p>
         </Link>
         </div>
      
         <div className="worksProjects">
-        <Link to={'/works/ecommerce'}> 
+        <Link to={'/ecommerce'}> 
         <h1 className="worksProjectTitles">E-Commerce</h1>
         <p className="worksProjectDescription"> Multiple Shopify Themes &amp; Websites </p>
         </Link>
         </div>
         
         <div className="worksProjects">
-        <Link to={'/works/freelance'}> 
+        <Link to={'/freelance'}> 
         <h1 className="worksProjectTitles">Freelance</h1>
         <p className="worksProjectDescription"> Selected Freelance Projects </p>
         </Link>

@@ -9,11 +9,11 @@ import Space22 from '../pages/Works/Space22'
 
 export default (
     <Switch>
-        <Route exact path='/' component={ LandingPage } />
+        <Route path='/' component={ LandingPage } />
         <Route path='/about' component={ About } />
         <Route exact path='/works' component={ Works } />
         {/* Works Detailed Pages */}
-        <Route path='/works/space22' component={ Space22 } />
+        <Route path='/space22' component={ Space22 } />
         {/* 404 ROUTE */}
         {/* <Route component={NotFound} /> */}
     </Switch>
