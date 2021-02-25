@@ -38,10 +38,17 @@ body {
 }
 
 .heroImage {
+    width: 50vw;
+    height: 90vh;
+    overflow: hidden;
+    margin: 25vh 90vh 15vh;
+}
+
+.heroImage2 {
     width: 70vw;
     height: 90vh;
     overflow: hidden;
-    margin: 35vh 60vh 15vh;
+    margin: 10vh 30vh 15vh;
 }
 
 /* .worksTitle a {
@@ -61,11 +68,37 @@ body {
     font-size: 45px !important;
 }
 
+.linkEndTitle {
+    font-size: 25px;
+    text-align: center;
+}
+
 .contentDescription {
     font-size: 25px;
 }
 
 .contentMiniDescription {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 2;
+}
+
+.contentLinks {
+   color: red;
+   transition: transform 0.5s ease;
+   transform: translateY(0px);
+}
+
+.contentLinks:hover {
+    color: black;
+    transform: translateY(10px);
+}
+
+
+.blockLink {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-top: 30px;
+    padding-left: 100px;
 }
