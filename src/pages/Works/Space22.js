@@ -12,11 +12,20 @@ function Space22 () {
     
     return (
         <> 
+            <Link to={'/'} onMouseEnter={() => setInnerText("victor.doyle")}
+                    onMouseOut={() => setInnerText("victor.")}>
+                    <h4 className="menuHeaderDark"> {innerText} </h4> 
+            </Link>
+        <div
+            style={{
+                backgroundColor: 'white',
+                width: '100%',
+                height: '100%',
+            }}
+            >
+
         <div className="worksContent">
-        <Link to={'/'} onMouseEnter={() => setInnerText("victor.doyle")}
-          onMouseOut={() => setInnerText("victor.")}>
-        <h4 className="menuHeader"> {innerText} </h4> 
-        </Link>
+       
 
         <div className="worksTitle">
         <h1 className="projectTitle">Space-22</h1>
@@ -27,7 +36,7 @@ function Space22 () {
         </div>
 
         {/* text content */}
-        <Container text>
+    <Container text>
     <Header className="contentTitle" as='h2'>Space-22</Header>
         
         <p className="contentDescription"> 
@@ -39,7 +48,7 @@ function Space22 () {
         
         Achieved more than 10,000 streams in under 3 months of beginning to stream on platforms such as Spotify and Apple Music. After analyzing consumer feedback, Spotify listener analytics and overall streaming data, I decided to take music production and apply innovative ways to experience each song. I built an interactive website to showcase select songs and deliver a visual journey to listeners. The website is built in HTML, CSS and Javascript while utilizing the power of Jquery for animations.
 
-</p>
+        </p>
 
             <Progress progress='percent' value={41.7}  total={100} color='red' active >
             <Icon name="html5"/> HTML 5
@@ -66,18 +75,18 @@ function Space22 () {
         <Container text>
     <Header className="linkEndTitle" as='h2' >View This Project</Header>
         <div className="blockLink">
-        <Link to={'/https://victordoyle.github.io/NarrativePage1'}>
+        <a href="https://victordoyle.github.io/NarrativePage1" target="_blank">
         <Icon name="external alternate" size="big" className="contentLinks"/>
-        </Link>
+        </a>
 
        
-        <Link to={'/https://github.com/VictorDoyle/NarrativePage1'}>
+        <a href="https://github.com/VictorDoyle/NarrativePage1" target="_blank">
         <Icon name="github" size="big" className="contentLinks"/>
-        </Link>
+        </a>
         
-        <Link to={'/https://open.spotify.com/artist/1PBlbMf53P99M1R7eNFxIR?si=24m18Gz2RgeR5CU7ZbE-Gg'}>
+        <a href="https://open.spotify.com/artist/1PBlbMf53P99M1R7eNFxIR?si=24m18Gz2RgeR5CU7ZbE-Gg" target="_blank">
         <Icon name="spotify" size="big" className="contentLinks"/>
-        </Link>
+        </a>
         </div>
 
         <br/>
@@ -87,13 +96,13 @@ function Space22 () {
        
 
 
-  </Container>
+        </Container>
 
        
       
        
 
-
+        </div>
         </>
     )
 }

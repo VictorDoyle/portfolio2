@@ -14,7 +14,7 @@ body {
 }
 
 .menuHeader  {
-    color: white;
+    color: white !important;
     font-size: 25px;
     float: right;
     margin-right: 300px;

@@ -9,7 +9,13 @@ function About () {
 
     return (
         <> 
-        
+        <div
+      style={{
+        backgroundColor: 'black',
+        width: '100%',
+        height: '100%',
+      }}
+    >
         <Link to={'/'} onMouseEnter={() => setInnerText("victor.doyle")}
           onMouseOut={() => setInnerText("victor.")}>
         <h4 className="menuHeader"> {innerText} </h4> {/* on hover change to victor.works */}
@@ -70,7 +76,7 @@ function About () {
         </Container>
         
 
-
+</div>
         </>
     )
 }
