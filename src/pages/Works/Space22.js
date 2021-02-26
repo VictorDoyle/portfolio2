@@ -75,16 +75,16 @@ function Space22 () {
         <Container text>
     <Header className="linkEndTitle" as='h2' >View This Project</Header>
         <div className="blockLink">
-        <a href="https://victordoyle.github.io/NarrativePage1" target="_blank">
+        <a href="https://victordoyle.github.io/NarrativePage1" target="_blank" rel="noreferrer">
         <Icon name="external alternate" size="big" className="contentLinks"/>
         </a>
 
        
-        <a href="https://github.com/VictorDoyle/NarrativePage1" target="_blank">
+        <a href="https://github.com/VictorDoyle/NarrativePage1" target="_blank" rel="noreferrer">
         <Icon name="github" size="big" className="contentLinks"/>
         </a>
         
-        <a href="https://open.spotify.com/artist/1PBlbMf53P99M1R7eNFxIR?si=24m18Gz2RgeR5CU7ZbE-Gg" target="_blank">
+        <a href="https://open.spotify.com/artist/1PBlbMf53P99M1R7eNFxIR?si=24m18Gz2RgeR5CU7ZbE-Gg" target="_blank" rel="noreferrer">
         <Icon name="spotify" size="big" className="contentLinks"/>
         </a>
         </div>
