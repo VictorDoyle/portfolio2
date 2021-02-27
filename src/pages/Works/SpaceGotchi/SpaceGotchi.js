@@ -4,6 +4,7 @@ import './SpaceGotchi.css'
 import { Container, Header, Image, Progress, Icon } from 'semantic-ui-react'
 /* hero one  */
 import spaceGotchiHero from '../../../images/spacegotchi/spacegotchiHero.jpeg'
+import spaceAstros from '../../../images/spacegotchi/spacegotchiAstros.jpg'
 
 
 
@@ -90,10 +91,17 @@ function SpaceGotchi () {
         
         <p className="contentMiniDescription"> 
         The premise of the SpaceGotchi is to present a time based browser experience where an astronaut seeking interplanetary travel has found complications after having crashed on an unknown planet, in an unrecognizable planetary system. Accompanied by a mischievous and questionable AI, HAL42, the Astronaut will have to eat, sleep and find productivity on this newly discovered environment, or risk dying a lonesome death.
+
+        </p>
+        <Header className="contentTitle secondaryContent" as='h2'>Finding Creative Adaptation</Header>
+        
+        <p className="contentMiniDescription"> 
+        Recreating a Tamagotchi could vary in its scale of creativity. I decided to approach this remake with a Spacial Theme and as such, I needed Spacial visuals or graphics to use and set the setting right. I utilized several open domain images released by NASA themselves and since they were copyright free, I decided to edit them with Adobe Photoshop in order to create a sequencial character narrative. 
+        Below are the astronaut characters edited and designed with Adobe Photoshop. The characters show the progression from a simple basic Astronaut (far right), onto an Astronaut sight-seeing (far left). Editing the astronauts with a visible red hue was done to add to the narrative that the Astronaut has been on this planet for too long and has been exposed to radiation. If the user plays long enough, they will reach the Death Screen and be presented with the red Skeleton Astronaut.
         </p>
 
   </Container>
-        <Image className="heroImage2" src={""}/>
+        <Image className="heroImage2" src={spaceAstros}/>
       
         <Container text>
     <Header className="linkEndTitle" as='h2' >View This Project</Header>
