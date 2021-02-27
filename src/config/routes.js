@@ -6,6 +6,7 @@ import LandingPage from '../pages/LandingPage'
 import About from '../pages/About'
 import Works from '../pages/Works'
 import Space22 from '../pages/Works/Space22'
+import SpaceGotchi from '../pages/Works/SpaceGotchi/SpaceGotchi'
 
 export default (
     <Switch>
@@ -14,6 +15,7 @@ export default (
         <Route path='/works' component={ Works } />
         {/* Works Detailed Pages */}
         <Route path='/space22' component={ Space22 } />
+        <Route path='/spacegotchi' component={ SpaceGotchi } />
         {/* 404 ROUTE */}
         {/* <Route component={NotFound} /> */}
     </Switch>

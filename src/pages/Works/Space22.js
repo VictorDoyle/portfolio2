@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Space22.css'
 import { Container, Header, Image, Progress, Icon } from 'semantic-ui-react'
-/* hero one  */
+/*  images  */
 import space22hero from "../../images/space22hero.jpg"
 import space22heroTwo from "../../images/space22heroTwo.jpg"
-
+import space22albums from "../../images/space22albums.jpg"
 
 
 
@@ -60,8 +60,8 @@ function Space22 () {
         <Image className="heroImage" src={space22hero}/>
         </div>
 
-        {/* text content */}
-    <Container text>
+       {/*  project intro */}
+    <Container text className="containerContent">
     <Header className="contentTitle" as='h2'>Space-22</Header>
         
         <p className="contentDescription"> 
@@ -87,7 +87,7 @@ function Space22 () {
 
 
 
-            <Header className="contentTitle" as='h2'>The Goal</Header>
+            <Header className="contentTitle secondaryContent" as='h2'>The Goal</Header>
         
         <p className="contentMiniDescription"> 
         The immediate goal of this website is to bring to life a select four songs from the Space-22 Albums. These are: "Purple", "The First Space Walk", "Ad Orionis" and "Gravity Rider". Each of these songs are given their own "Chapter" experience. These can be experienced by Users immediately from the Homepage, by clicking one of the four selection choices. Each chapter has its own personality, narrative and unique twist. 
@@ -96,7 +96,41 @@ function Space22 () {
 
   </Container>
         <Image className="heroImage2" src={space22heroTwo}/>
-      
+
+{/* describing the creative process */}
+        <Container text className="containerContent">
+    <Header className="contentTitle" as='h2'>The Creative Process</Header>
+        
+        <p className="contentDescription"> 
+        Before I began conceptualizing the Space-22 Website, I took the time to design the media and album covers for Space-22. The design ideas and creative process behind these albums led to a clearer approach to designing the website. 
+        
+        </p>
+
+        <p className="contentMiniDescription"> 
+        The overall idea behind Space-22 is that Music can be leveraged as a tool for narrative and can heighten the user's sensations while listening to musical productions. With this goal in mind, the creative process behind the design of the albums became primordial if I were to create albums that correctly synthesized each album's emotive audio base.
+        Each album is designed with a specific color palette in mind; one that fits with the mental colors associated with the musical compositions of each album.
+        </p>
+
+            <Progress progress='percent' value={90}  total={100} color='red' active >
+            <Icon name="users"/> Agreed that the album Purple made them feel the same color
+            </Progress>
+
+            <Progress progress='percent' value={70} total={100} color='red' active >
+            <Icon name="users" /> Agreed that "Born Explorer" Single made them feel a narrative of Exploration
+            </Progress>
+            <Progress progress='percent' value={50} total={100} color='red' active >
+            <Icon name="users"/> Recognized the music as being "narrative based" or fit for a Video Game, Movie or Series
+            </Progress>
+
+
+
+            <Header className="contentTitle secondaryContent" as='h2'>Showcasing The Albums</Header>
+        
+       
+
+  </Container>
+  <Image className="finalImage" src={space22albums}/>
+      {/* footer */}
         <Container text>
     <Header className="linkEndTitle" as='h2' >View This Project</Header>
         <div className="blockLink">

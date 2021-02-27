@@ -10,6 +10,7 @@ function Works () {
     return (
         <> 
          <div
+         className="fullPage"
       style={{
         backgroundColor: 'black',
         width: '100%',
@@ -40,12 +41,12 @@ function Works () {
      
        
 
-        <div className="worksProjects">
+        {/* <div className="worksProjects">
         <Link to={'/luxuryrentals'}> 
         <h1 className="worksProjectTitles">Luxury Rentals</h1>
         <p className="worksProjectDescription"> Real Estate Website </p>
         </Link>
-        </div>
+        </div> */}
 
         <div className="worksProjects">
         <Link to={'/spacegotchi'}> 
@@ -54,19 +55,19 @@ function Works () {
         </Link>
         </div>
      
-        <div className="worksProjects">
+        {/* <div className="worksProjects">
         <Link to={'/ecommerce'}> 
         <h1 className="worksProjectTitles">E-Commerce</h1>
         <p className="worksProjectDescription"> Multiple Shopify Themes &amp; Websites </p>
         </Link>
-        </div>
+        </div> */}
         
-        <div className="worksProjects">
+       {/*  <div className="worksProjects">
         <Link to={'/freelance'}> 
         <h1 className="worksProjectTitles">Freelance</h1>
         <p className="worksProjectDescription"> Selected Freelance Projects </p>
         </Link>
-        </div>
+        </div> */}
         
         </div>
 
@@ -76,7 +77,10 @@ function Works () {
       
        
 
+ <div className="heroFooter"></div>
+
  </div>
+    
         </>
     )
 }
