@@ -35,8 +35,11 @@
     width: 50vw;
     height: 90vh;
     overflow: hidden;
-    margin: 25vh 90vh 15vh;
-    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40vh;
+    margin-bottom: 20vh;
+    
 }
 
 .heroImage2 {
@@ -87,4 +90,28 @@
     width: 300px;
     padding-top: 30px;
     padding-left: 100px;
+}
+
+/* progress bar on scroll */
+
+#progressBarContainer {
+    position: fixed;
+    z-index: 10;
+    background: rgba(255,255,255,0.05);
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+  
+  
+#progressBar {
+    background: #ea0f1e;
+    transform-origin: top left;
+    transform: scale(0,0);
+    opacity: 0;
+}
+
+#progressBarContainer,
+#progressBar {
+    height: 5px;
 }

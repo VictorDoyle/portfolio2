@@ -16,22 +16,40 @@
     padding: 150px 0px 0px 0px ;
 }
 .landingHeaderOne {
-    color: white;
+    color: white ;
     margin: 0px 10px 10px 5px;
     transition: transform 0.5s ease;
     transform: translateX(30px);
     width: 100%;
 }
 
+.landingHeaderOne a{
+    text-decoration: none;
+    color: white ;
+}
+
+.landingHeaderOne a:hover{
+    color: white ;
+}
+
 .landingHeaderOne:hover {
     transform: translateX(0px);
+    
 }
 
 .landingHeaderTwo {
-    color: #ea0f1e;
+    
     margin: 10px 10px 10px 5px;
     transition: transform 0.5s ease;
     transform: translateX(30px);
+}
+
+.landingHeaderTwo a {
+    color: #ea0f1e;
+}
+
+.landingHeaderTwo a:hover {
+    color: #ea0f1e;
 }
 
 .landingHeaderTwo:hover{
@@ -39,7 +57,7 @@
 }
 
 .landingHeaderThree {
-    color: #ea0f1e;
+    
     margin: 10px 10px 10px 5px;
     transition: transform 0.5s ease;
     transform: translateX(30px);
@@ -47,6 +65,15 @@
 
 .landingHeaderThree:hover {
     transform: translateX(0px);
+}
+
+
+.landingHeaderThree a {
+    color: #ea0f1e;
+}
+
+.landingHeaderThree a:hover {
+    color: #ea0f1e;
 }
 
 .heroFooter {

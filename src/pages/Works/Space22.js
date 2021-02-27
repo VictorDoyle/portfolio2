@@ -7,8 +7,28 @@ import space22hero from "../../images/space22hero.jpg"
 import space22heroTwo from "../../images/space22heroTwo.jpg"
 
 
+
+
 function Space22 () {
     const [innerText, setInnerText] = useState("victor.")
+    /* scroll bar */
+    const [scroll, setScroll] = useState(0);
+
+    useEffect(() => {
+
+        let progressBarHandler = () => {
+            
+            const totalScroll = document.documentElement.scrollTop;
+            const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scroll = `${totalScroll / windowHeight}`;
+
+            setScroll(scroll);
+        }
+
+        window.addEventListener("scroll", progressBarHandler);
+
+        return () => window.removeEventListener("scroll", progressBarHandler);
+    });
     
     return (
         <> 
@@ -17,13 +37,18 @@ function Space22 () {
                     <h4 className="menuHeaderDark"> {innerText} </h4> 
             </Link>
         <div
+       
             style={{
                 backgroundColor: 'white',
                 width: '100%',
                 height: '100%',
             }}
             >
-
+                {/* scroll bar progress  */}
+        <div id="progressBarContainer">
+            <div id="progressBar" style={{transform: `scale(${scroll}, 1)`, opacity: `${scroll}`}} />
+        </div>
+                {/* end of scroll bar  */}
         <div className="worksContent">
        
 
