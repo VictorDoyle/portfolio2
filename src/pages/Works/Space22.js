@@ -6,8 +6,11 @@ import { Container, Header, Image, Progress, Icon } from 'semantic-ui-react'
 import space22hero from "../../images/space22hero.jpg"
 import space22heroTwo from "../../images/space22heroTwo.jpg"
 import space22albums from "../../images/space22albums.jpg"
-
-
+/* gifs */
+import purple from "../../images/space22/purple.gif"
+import adorionis from "../../images/space22/adorionis.gif"
+import firstspace from "../../images/space22/firstspacewalk.gif"
+import gravityrider from "../../images/space22/gravityrider.gif"
 
 function Space22 () {
     const [innerText, setInnerText] = useState("victor.")
@@ -130,7 +133,26 @@ function Space22 () {
 
   </Container>
   <Image className="finalImage" src={space22albums}/>
-      {/* footer */}
+
+      <Container text>
+      <Header className="contentTitle secondaryContent" as='h2'>Space-22's Chapter Intro Pages</Header>
+      <p className="contentMiniDescription"> 
+       Below are gifs showcasing the landing page the User sees before entering a specific chapter on Space-22's Website.
+        </p>
+      <Image src={adorionis} size='large' rounded centered/>
+      <br/>
+      <Image src={firstspace} size='large' rounded centered/>
+      <br/>
+      <Image src={gravityrider} size='large' rounded centered/>
+      <br/>
+      <br/>
+        <br/>
+        <br/>
+      </Container>
+
+
+
+      {/* SECTION: footer */}
         <Container text>
     <Header className="linkEndTitle" as='h2' >View This Project</Header>
         <div className="blockLink">
