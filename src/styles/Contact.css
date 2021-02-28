@@ -1,0 +1,34 @@
+
+.aboutHeader {
+    padding-top: 30px;
+    color: white;
+    text-align: left;
+}
+
+.tabContent {
+    background-color: #0f1e39 !important;
+    color: white;
+    border: none !important;
+}
+
+.ui.vertical.tabular.menu .active.item {
+    background: none !important;
+    color: white !important;
+    border-color: #ea0f1e !important;
+}
+
+
+.ui.vertical.tabular.menu .item {
+    color: white;
+}
+
+.ui.vertical.tabular.menu .item:hover {
+    color: #ea0f1e !important;
+}
+
+
+.techUsedOne, .techUsedTwo {
+    padding-top: 30px;
+    text-align: left;
+}
+

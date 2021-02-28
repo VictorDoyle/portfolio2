@@ -39,14 +39,7 @@ function Space22 () {
                     onMouseOut={() => setInnerText("victor.")}>
                     <h4 className="menuHeaderDark"> {innerText} </h4> 
             </Link>
-        <div
-       
-            style={{
-                backgroundColor: 'white',
-                width: '100%',
-                height: '100%',
-            }}
-            >
+        
                 {/* scroll bar progress  */}
         <div id="progressBarContainer">
             <div id="progressBar" style={{transform: `scale(${scroll}, 1)`, opacity: `${scroll}`}} />
@@ -183,7 +176,7 @@ function Space22 () {
       
        
 
-        </div>
+        
         </>
     )
 }

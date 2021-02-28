@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 
 import { Link } from 'react-router-dom';
 import '../styles/LandingPage.css'
-
+import { useDarkBody } from './hooks'
 
 function LandingPage () {
     const [about, setAbout] = useState("Hello.")
     const [works, setWorks] = useState("I am")
     const [contact, setContact] = useState("Victor")
-
+    useDarkBody()
 
     return (
     <>

@@ -1,22 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Works.css'
-import { Container, Header } from 'semantic-ui-react'
-
+import { useDarkBody } from './hooks'
 
 function Works () {
     const [innerText, setInnerText] = useState("victor.")
-
+    useDarkBody()
     return (
         <> 
-         <div
-         className="fullPage"
-      style={{
-        backgroundColor: 'black',
-        width: '100%',
-        height: '100%',
-      }}
-    >
+         
 
   
         <div className="worksContent">
@@ -79,7 +71,7 @@ function Works () {
 
  <div className="heroFooter"></div>
 
- </div>
+
     
         </>
     )
