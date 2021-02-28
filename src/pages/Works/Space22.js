@@ -35,7 +35,7 @@ function Space22 () {
     
     return (
         <> 
-            <Link to={'/'} onMouseEnter={() => setInnerText("victor.doyle")}
+            <Link to={'/works'} onMouseEnter={() => setInnerText("victor.doyle")}
                     onMouseOut={() => setInnerText("victor.")}>
                     <h4 className="menuHeaderDark"> {innerText} </h4> 
             </Link>
