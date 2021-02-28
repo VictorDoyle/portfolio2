@@ -4,6 +4,8 @@ import './Coeus.css'
 import { Container, Header, Image, Progress, Icon } from 'semantic-ui-react'
 /*  images  */
 import coeushome from "../../../images/coeus/coeushome.jpg"
+import fullWireFrame from "../../../images/coeus/full-wireframe.jpg"
+
 
 function Coeus () {
     const [innerText, setInnerText] = useState("victor.")
@@ -92,35 +94,35 @@ function Coeus () {
         <p className="contentMiniDescription"> 
         The mission statement of this project and application are that they should produce a positive outcome based on their interaction with users. By utilizing the power of React.js and the well known event of "infinite scrolling", I built Coeus hoping I could use those powers and create a positive learning environment in which users would walk away from this social media platform having learnt more information and knowledge than if they had been without it. 
         This application was part of my final project at General Assembly, to showcase my ability to use what I had learned and effectively put it to work. Having done so, I now have some additional implementations and features I look forward to adding.
-        For the time being, Coeus
+        For the time being, Coeus is still in Version 1.0. The most important next step for me is to begin styling the overall application to deliver a flawless browsing experience to the users.
         </p>
 
   </Container>
-        <Image className="heroImage2" src={""}/>
+        <Image className="heroImage2" src={fullWireFrame}/>
 
 {/* describing the creative process */}
         <Container text className="containerContent">
-    <Header className="contentTitle" as='h2'>The Creative Process</Header>
+    <Header className="contentTitle" as='h2'>Steps To Take After Version 1.0 </Header>
         
         <p className="contentDescription"> 
-        Before I began conceptualizing the Space-22 Website, I took the time to design the media and album covers for Space-22. The design ideas and creative process behind these albums led to a clearer approach to designing the website. 
-        
+        What's in store for Coeus Version 2.0 is quite special and I believe will mark Coeus apart from other social media platforms.
         </p>
 
         <p className="contentMiniDescription"> 
-        The overall idea behind Space-22 is that Music can be leveraged as a tool for narrative and can heighten the user's sensations while listening to musical productions. With this goal in mind, the creative process behind the design of the albums became primordial if I were to create albums that correctly synthesized each album's emotive audio base.
-        Each album is designed with a specific color palette in mind; one that fits with the mental colors associated with the musical compositions of each album.
+        The versions post MVP will bring new features with the homepage and added user experience/functionality. The user will be able to change their moods, which will in turn affect what kind of posts will be shown on their profile homepage. The users will also have a level that will effectively progress throughout the user's use of the application. For each article and news read, they will gain points and eventually "level up". <br/><br/>
+        Each user has a choice of how to use the Coeus platform, some may choose to use it to learn daily facts, some may use it to keep updated about the current news or to read and learn daily. The social media platform offers multiple ways to enjoy user to user interaction as well as overall interaction. <br/> <br/>
+        Each user will start from level 0 and have no trophies. For each interaction the user partakes in within the application, the user will gain points and trophies for certain achievements. For each article the user reads fully, they will gain a certain amount of points. The same is applied when users share posts, comment on other peoples posts, read random facts of the day, read the news. The reason behind this choice is to create a positive environment to promote learning and social interaction.
         </p>
 
             <Progress progress='percent' value={90}  total={100} color='red' active >
-            <Icon name="users"/> Agreed that the album Purple made them feel the same color
+            <Icon name="github"/> Version 1.0 Completed
             </Progress>
 
-            <Progress progress='percent' value={70} total={100} color='red' active >
-            <Icon name="users" /> Agreed that "Born Explorer" Single made them feel a narrative of Exploration
+            <Progress progress='percent' value={20} total={100} color='red' active >
+            <Icon name="newspaper" /> 2.0 Adding 20+ Sources of News and Api
             </Progress>
-            <Progress progress='percent' value={50} total={100} color='red' active >
-            <Icon name="users"/> Recognized the music as being "narrative based" or fit for a Video Game, Movie or Series
+            <Progress progress='percent' value={0} total={100} color='red' active >
+            <Icon name="users"/> Adding Image Upload, Getting A Host/Server For User Info
             </Progress>
             <br/>
         <br/>
@@ -136,18 +138,16 @@ function Coeus () {
         <Container text>
     <Header className="linkEndTitle" as='h2' >View This Project</Header>
         <div className="blockLink">
-        <a href="https://victordoyle.github.io/NarrativePage1" target="_blank" rel="noreferrer">
+        <a href="https://the-coeus-app.herokuapp.com/" target="_blank" rel="noreferrer">
         <Icon name="external alternate" size="big" className="contentLinks"/>
         </a>
 
        
-        <a href="https://github.com/VictorDoyle/NarrativePage1" target="_blank" rel="noreferrer">
+        <a href="https://github.com/VictorDoyle/Coeus-App" target="_blank" rel="noreferrer">
         <Icon name="github" size="big" className="contentLinks"/>
         </a>
         
-        <a href="https://open.spotify.com/artist/1PBlbMf53P99M1R7eNFxIR?si=24m18Gz2RgeR5CU7ZbE-Gg" target="_blank" rel="noreferrer">
-        <Icon name="spotify" size="big" className="contentLinks"/>
-        </a>
+        
         </div>
 
         <br/>
