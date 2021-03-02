@@ -99,10 +99,16 @@
 
 @media only screen and (min-device-width : 375px) and (max-width: 736px) {
 * {
-    width: 375px;
+    width: 300px;
+   
 }
+
+    .headerFill{
+        padding: 0px ;
+    }
     .landingHero {
         text-align: center;
+        padding-top: 130px;
       }
     
     .landingHero h1 {
