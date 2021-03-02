@@ -1,3 +1,6 @@
+/* SECTION: laptop/desktop */
+
+@media only screen and (min-device-width : 1200px) and (max-width: 1600px) {
 
 .aboutHeader {
     padding-top: 30px;
@@ -32,3 +35,139 @@
     text-align: left;
 }
 
+}
+
+/* SECTION: iPads */
+
+@media only screen and (min-device-width : 768px) and (max-width: 1024px) {
+
+   
+   
+.aboutHeader {
+    padding-top: 30px;
+    color: white;
+    text-align: left;
+}
+
+.tabContent {
+    background-color: black !important;
+    color: white;
+    border: none !important;
+}
+
+.ui.vertical.tabular.menu .active.item {
+    background: none !important;
+    color: white !important;
+    border-color: #ea0f1e !important;
+}
+
+
+.ui.vertical.tabular.menu .item {
+    color: white;
+}
+
+.ui.vertical.tabular.menu .item:hover {
+    color: #ea0f1e !important;
+}
+
+
+.techUsedOne, .techUsedTwo {
+    padding-top: 30px;
+    text-align: left;
+    width: 300px !important;
+}
+
+.techIconGrid {
+    width: 500px !important;
+}
+
+.aboutHero {
+    text-align: center;
+  }
+
+.aboutHeroHeader {
+    color: white;
+    font-size: 50px;
+    padding-top: 300px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutContentTitle {
+    color: white !important;
+    font-size: 30px !important;
+    text-align: left;
+    
+}
+
+.aboutSection {
+ 
+    padding-left: 0px !important;
+    
+}
+
+.menuHeader  {
+    color: white ;
+    font-size: 25px;
+    float: right;
+    padding-right: 200px;
+    position: sticky !important;
+    top: 20px ;
+    z-index: 20;
+}
+
+.aboutContent {
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    padding-top: 250px;
+    margin-left: 15px!important;
+}
+
+.aboutText {
+    font-size: 20px;
+    text-align: left;
+    width: 500px;
+}
+
+
+
+}
+
+/* SECTION: iPhones */
+
+@media only screen and (min-device-width : 375px) and (max-width: 736px) {
+    .aboutHeader {
+        padding-top: 30px;
+        color: white;
+        text-align: left;
+    }
+    
+    .tabContent {
+        background-color: black !important;
+        color: white;
+        border: none !important;
+    }
+    
+    .ui.vertical.tabular.menu .active.item {
+        background: none !important;
+        color: white !important;
+        border-color: #ea0f1e !important;
+    }
+    
+    
+    .ui.vertical.tabular.menu .item {
+        color: white;
+    }
+    
+    .ui.vertical.tabular.menu .item:hover {
+        color: #ea0f1e !important;
+    }
+    
+    
+    .techUsedOne, .techUsedTwo {
+        padding-top: 30px;
+        text-align: left;
+    }
+}

@@ -1,3 +1,4 @@
+/* SECTION: laptop/desktop */
 .landingHero {
     text-align: center;
   }
@@ -77,4 +78,34 @@
 .heroFooter {
     padding: 150px 0px 0px 0px ;
 }
-  
+
+/* SECTION: iPads */
+
+@media only screen and (min-device-width : 768px) and (max-width: 1024px) {
+
+    .landingHero {
+        text-align: center;
+      }
+    
+    .landingHero h1 {
+        font-size: 150px;
+    }
+    
+   
+}
+
+
+/* SECTION: iPhones */
+
+@media only screen and (min-device-width : 375px) and (max-width: 736px) {
+* {
+    width: 375px;
+}
+    .landingHero {
+        text-align: center;
+      }
+    
+    .landingHero h1 {
+        font-size: 100px;
+    }
+}

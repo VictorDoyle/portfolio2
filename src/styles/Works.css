@@ -1,3 +1,6 @@
+/* SECTION: laptop/desktop */
+
+@media only screen and (min-device-width : 1200px) and (max-width: 1600px) {
 
 
 .worksProjectTitles {
@@ -45,4 +48,94 @@
 
 .worksProjects a:hover {
     transform: translateX(30px);
+}
+}
+
+/* SECTION: iPads */
+
+@media only screen and (min-device-width : 768px) and (max-width: 1024px) {
+
+    .worksProjectTitles {
+        color: white;
+        font-size: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .worksProjectDescription {
+        color: #ea0f1e;
+        font-size: 20px;
+    }
+    
+    .menuHeader  {
+        color: white !important;
+        font-size: 25px;
+        float: right;
+        margin-right: 70px;
+        padding-top: 20px;
+        position: sticky;
+        top: 20px;
+        z-index: 20;
+    }
+    
+   
+    
+    .worksProjects {
+        padding-top: 10%;
+        margin-left: 10%;
+    }
+    
+    .worksProjects a {
+        display:block;
+        width:40%;
+        height: 100%;
+        transition: transform 0.5s ease;
+        transform: translateX(0px);
+    }
+    
+    
+    .worksProjects a:hover {
+        transform: translateX(30px);
+    }
+}
+
+/* SECTION: iPhones */
+
+@media only screen and (min-device-width : 375px) and (max-width: 736px) {
+
+   
+.worksProjectTitles {
+    color: white;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.worksProjectDescription {
+    color: #ea0f1e;
+    font-size: 15px;
+}
+
+.menuHeader  {
+    color: white ;
+    font-size: 25px;
+    float: right;
+    position: sticky;
+    top: 20px;
+    z-index: 20;
+}
+
+
+.worksProjects {
+    padding-top: 25%;
+    margin-left: 8%;
+}
+
+.worksProjects a {
+    display:block;
+    width:20%;
+    height: 100%;
+
+}
+
 }
