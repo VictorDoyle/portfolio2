@@ -278,7 +278,7 @@
 
     .projectTitle {
         color: black;
-        font-size: 60px;
+        font-size: 40px;
     }
     
     .projectDescription {
@@ -305,7 +305,7 @@
     
     .worksTitle {
         padding-top: 15%;
-        margin-left: 15%;
+        margin-left: 5%;
     }
     
     .heroImage {
@@ -331,7 +331,7 @@
     }
     
     .contentTitle {
-        font-size: 45px !important;
+        font-size: 30px !important;
     }
     
     .linkEndTitle {

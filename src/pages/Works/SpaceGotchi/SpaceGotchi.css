@@ -123,7 +123,7 @@
 
     .projectTitle {
         color: black;
-        font-size: 80px;
+        font-size: 60px;
     }
     
     .projectDescription {
@@ -238,4 +238,118 @@
 /* SECTION: iPhones */
 
 @media only screen and (min-device-width : 375px) and (max-width: 736px) {
+
+
+    .projectTitle {
+        color: black;
+        font-size: 40px;
+    }
+    
+    .projectDescription {
+        color: grey;
+        font-size: 20px;
+    }
+    
+    .menuHeaderDark  {
+        color: black ;
+        font-size: 25px;
+        float: right;
+        margin-right: 80px;
+        padding-top: 10px;
+        transition: transform 0.5s ease;
+        transform: translateX(10px);
+        position: sticky;
+        top: 20px;
+        z-index: 20;
+    }
+    
+    .menuHeaderDark:hover {
+        transform: translateX(0px);
+    }
+    
+    .worksTitle {
+        padding-top: 15%;
+        margin-left: 15%;
+    }
+    
+    .spacegotchiHero {
+        width: 100%;
+        height: 100%;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    
+    .heroImage2 {
+        width: 100%;
+        height: 100%;
+      
+    }
+    
+    .containerText {
+        z-index: 10 !important;
+    }
+    
+    .contentTitle {
+        font-size: 30px !important;
+    }
+    
+    .linkEndTitle {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .contentDescription {
+        font-size: 25px;
+    }
+    
+    .contentMiniDescription {
+        font-size: 18px;
+        line-height: 2;
+    }
+    
+    .contentLinks {
+       color: red;
+       transition: transform 0.5s ease;
+       transform: translateY(0px);
+    }
+    
+    .contentLinks:hover {
+        color: black;
+        transform: translateY(10px);
+    }
+    
+    
+    .blockLink {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        padding-top: 30px;
+        padding-left: 100px;
+    }
+    
+    /* progress bar on scroll */
+    
+    #progressBarContainer {
+        position: fixed;
+        z-index: 10;
+        background: rgba(255,255,255,0.05);
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+      
+      
+    #progressBar {
+        background: #ea0f1e;
+        transform-origin: top left;
+        transform: scale(0,0);
+        opacity: 0;
+    }
+    
+    #progressBarContainer,
+    #progressBar {
+        height: 5px;
+    }
+
 }
