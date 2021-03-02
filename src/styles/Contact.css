@@ -169,5 +169,15 @@
     .techUsedOne, .techUsedTwo {
         padding-top: 30px;
         text-align: left;
+        width: 150px !important;
     }
+    
+    .techIconGrid {
+        width: 380px !important;
+    }
+
+    .aboutSection {
+        display: none !important;
+    }
+    
 }
