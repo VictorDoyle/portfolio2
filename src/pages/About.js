@@ -50,7 +50,7 @@ function About () {
         </p>
         
 
-        <a className="resumeLink"> My Resume (pdf)</a>
+        <a href="https://drive.google.com/file/d/1kWL_8F19Pd2bLhBnS8kPAW6CvEsXUrDO/view?usp=sharing" className="resumeLink"> My Resume (pdf)</a>
         </Container>
         
 
