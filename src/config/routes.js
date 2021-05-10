@@ -8,6 +8,7 @@ import Works from '../pages/Works'
 import Space22 from '../pages/Works/Space22'
 import SpaceGotchi from '../pages/Works/SpaceGotchi/SpaceGotchi'
 import Coeus from '../pages/Works/Coeus/Coeus'
+import FlixAlways from '../pages/Works/FlixAlways/FlixAlways'
 import Contact from '../pages/Contact'
 
 export default (
@@ -20,6 +21,8 @@ export default (
         <Route path='/space22' component={ Space22 } />
         <Route path='/spacegotchi' component={ SpaceGotchi } />
         <Route path='/coeus' component= { Coeus } />
+        <Route path='/flixalways' component = { FlixAlways} />
+        <Route component = {LandingPage} />
 
         
         {/* 404 ROUTE */}

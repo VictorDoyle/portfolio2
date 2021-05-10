@@ -17,6 +17,13 @@ function Works () {
         <h4 className="menuHeader"> {innerText} </h4> 
         </Link>
 
+         <div className="worksProjects">
+        <Link to={'/flixalways'}> 
+        <h1 className="worksProjectTitles">FlixAlways</h1>
+        <p className="worksProjectDescription"> Full Stack Movie Application </p>
+        </Link>
+        </div>
+
         <div className="worksProjects">
         <Link to={'/space22'}> 
         <h1 className="worksProjectTitles">Space-22</h1>
@@ -47,12 +54,12 @@ function Works () {
         </Link>
         </div>
      
-        {/* <div className="worksProjects">
+        <div className="worksProjects">
         <Link to={'/ecommerce'}> 
         <h1 className="worksProjectTitles">E-Commerce</h1>
         <p className="worksProjectDescription"> Multiple Shopify Themes &amp; Websites </p>
         </Link>
-        </div> */}
+        </div>
         
        {/*  <div className="worksProjects">
         <Link to={'/freelance'}> 
